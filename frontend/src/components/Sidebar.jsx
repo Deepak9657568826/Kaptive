@@ -1,10 +1,10 @@
 
 import React from 'react';
 import { Box, VStack, Text, Button } from '@chakra-ui/react';
-import { useSelector } from 'react-redux';
+
 
 const Sidebar = () => {
-    const { isLoading, isError, token, isAuth } = useSelector(state => state.auth);
+
   return (
     <Box w="200px" bg="purple.700" color="white" p="4">
       <Text fontSize="2xl" fontWeight="bold">PLSE</Text>
